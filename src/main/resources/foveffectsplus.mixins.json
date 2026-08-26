@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.thexguy.foveffectsplus.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AbstractClientPlayerMixin",
+    "CameraMixin",
+    "OptionsScreenMixin",
+    "OptionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

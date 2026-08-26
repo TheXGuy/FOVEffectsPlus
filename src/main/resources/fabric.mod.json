@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "foveffectsplus",
+  "version": "${version}",
+  "name": "FOVEffects+",
+  "description": "Control your FOV your own way.",
+  "authors": [ "TheXGuy" ],
+  "contact": {
+    "homepage": "https://github.com/TheXGuy/FOVEffectsPlus",
+    "sources": "https://github.com/TheXGuy/FOVEffectsPlus",
+    "issues": "https://github.com/TheXGuy/FOVEffectsPlus/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/foveffectsplus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [
+      "me.thexguy.foveffectsplus.config.ModMenuIntegration"
+    ],
+    "main": [
+      "me.thexguy.foveffectsplus.FOVEffectsPlus"
+    ]
+  },
+  "mixins": [
+    "foveffectsplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "modmenu": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
