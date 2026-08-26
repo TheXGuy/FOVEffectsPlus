@@ -29,6 +29,6 @@
     "fabric-api": "*",
     "cloth-config": "*",
     "modmenu": "*",
-    "minecraft": ">=26.1-"
+    "minecraft": "${minecraft_version}"
   }
 }
