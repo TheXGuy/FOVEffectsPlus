@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> No AI was used in the making of FOVEffects+!
+
 # FOVEffects+
 **FOVEffects+** is a mod that gives you _full_ and _extensive_ control over your **FOV** and **FOV Effects**!
 
